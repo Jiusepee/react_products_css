@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.one_item{
+    border: 5px solid white;
+    border-radius: 3%;
+    width: 33%;
+    margin: 1% 0;
+    padding: 1%;
+    color: white;
+}
+
+.one_item *{
+    object-fit: contain;
+}
+
+.one_item img{
+    width: 100%;
+    border-radius: 3%;
+}
+
+.bottomTag{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
